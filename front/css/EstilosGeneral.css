@@ -1,0 +1,461 @@
+/* MainMenuAlumnos */
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+article.MainMenu{
+margin-top: 100px;
+margin-left: 90px;
+margin-right: 20px;
+padding: 0px 0px 15px 0px;
+position: relative;
+}
+
+article.MainMenu div#User div.card-body div.LogoUsuario img{
+  float: left;
+  text-align: left;
+  margin: 0px 15px 0px 1px;
+}
+
+article.MainMenu div#User div.card-body div.botonPersonalizar button{
+  color: black;
+  background-color: #ced4da;
+  border-color: #ced4da;
+  float: right;
+  margin-top: 80px;
+}
+
+article.MainMenu div#User div.card-body div.LogoUsuario p{
+  color: #455a64;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 125px;
+  font-size: 200%;
+}
+
+article.MainMenu div.CardInferior div.card-body div.g p.bienvenido{
+  text-align: center;
+  font-weight: bolder;
+  font-size: 16pt;
+}
+
+article.MainMenu div.CardInferior div.card-body div.g p.Exitos{
+  margin-left: 41%;
+  font-weight: bold;
+}
+
+article.MainMenu div.CardInferior div.card-body div.g img{
+  justify-content: center;
+  margin-left: 38%;
+  position: absolute;
+}
+
+#pen{
+  animation-name: lapiz;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lapiz{
+  from{
+    margin-left: 42%;
+  }
+  to{
+    margin-left: 44%;
+  }
+}
+
+.fa-2x {
+font-size: 2em;
+}
+
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+nav{
+float: right;
+background-color: #0c71b9;
+}
+
+div.area{
+position: relative;
+}
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+background-color: #0c71b9;
+border-right:1px solid #e5e5e5;
+position:fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:68px; /*Ancho barra azul nav lateral*/
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+transform:translateZ(0) scale(1,1);
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:100px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+margin: 7px 0px 7px 7px; /* margen entre lista Nav lateral*/
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color: white;
+ font-family: arial;
+font-size: 14px;
+text-decoration:none;
+transform:translateZ(0) scale(1,1);
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:180px;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+dropdown-toggle::after { 
+  content: none; 
+} 
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+}
+
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+/* MainMenuAlumnos (arriba) */
+
+/* Estilos Administrador */
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+article{
+margin-top: 100px;
+margin-left: 90px;
+margin-right: 20px;
+padding: 0px 0px 15px 0px;
+}
+
+article div#User div.card-body div.LogoUsuario img{
+  float: left;
+  text-align: left;
+  margin: 0px 15px 0px 1px;
+}
+
+article div#User div.card-body div.botonPersonalizar button{
+  color: black;
+  background-color: #ced4da;
+  border-color: #ced4da;
+  float: right;
+  margin-top: 80px;
+}
+
+article div#User div.card-body div.LogoUsuario p{
+  color: #455a64;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 125px;
+  font-size: 200%;
+}
+
+article div.container div.tab-content div#home h4{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    background-color: green;
+    color: white;
+    padding: 5px 0px 2px 0px;
+}
+
+article div.container div.tab-content div#menu1 h4{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: red;
+  color: white;
+  padding: 5px 0px 2px 0px;
+  margin-bottom: 30px;
+}
+
+article div.container div.tab-content div#menu2 h4{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  background-color: gray;
+  color: black;
+  padding: 5px 0px 2px 0px;
+  margin-bottom: 30px;
+}
+
+article div.container div.tab-content div#menu2 img{
+margin: 0% 4% 0% 4%;
+}
+
+article div.container div.tab-content div#home div.container form button{
+    margin-left: 40%;
+}
+
+article div.container div.tab-content div#menu2 div.container form button{
+  margin-left: 40%;
+}
+
+article div.container ul li{
+    margin: 0px 15px 0px 15px;
+}
+
+article div.container div.tab-content {
+    margin-top: 15px;
+}
+
+.fa-2x {
+font-size: 2em;
+}
+
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+
+nav{
+float: right;
+background-color: #0c71b9;
+}
+
+div.area{
+position: relative;
+}
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+background-color: #0c71b9;
+border-right:1px solid #e5e5e5;
+position:fixed;
+top:0;
+bottom:0;
+height:100%;
+left:0;
+width:68px; /*Ancho barra azul nav lateral*/
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+transform:translateZ(0) scale(1,1);
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:100px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+margin: 7px 0px 7px 7px; /* margen entre lista Nav lateral*/
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color: white;
+ font-family: arial;
+font-size: 14px;
+text-decoration:none;
+transform:translateZ(0) scale(1,1);
+-webkit-transition:all .1s linear;
+transition:all .1s linear;
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:180px;
+font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+
+dropdown-toggle::after { 
+  content: none; 
+} 
+
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+}
+
+.area {
+float: left;
+background: #e2e2e2;
+width: 100%;
+height: 100%;
+}
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+/* Estilos Administrador */
+
+/* Style Inscripciones */
+article.inscripciones{
+    margin-top: 120px;
+    margin-left: 60px;
+    text-align: center;
+    border-top: 2px black dashed;
+    border-bottom: 2px black dashed;
+    padding: 0px 0px 20px 0px;
+}
+article.inscripciones .div p.TitulosForm{
+    font-family: 'Merriweather', serif;
+}
+/* Style Inscripciones */
+
+/* Mis Cursos */
+article h2{
+    text-align: center;
+    font-weight: 400;
+}
+/* Mis Cursos */
