@@ -1,0 +1,78 @@
+
+body{
+    background-image: url(../img/FondoIndex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#navBar{
+    position: relative;
+    background-color: #0c71b9;
+    width: 100%;
+}
+div.imgIzq{
+    float: left;
+}
+div.imgDer{
+    float: right;
+}
+#btnGroupDrop1{
+    background-color: #007BFF;
+    border: #007BFF;
+}
+.Formulario{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2% 3% 2% 3%;
+    margin: 25px 25px 25px 25px;
+}
+.UsuarioUsuario{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20.8px;
+}
+#iniciarInvitado{
+    width: 100%;
+    text-align: center;
+    background-color: #b8c1ca;
+    border-color: #b1bbc4;
+    color: #212529;
+}
+.campus{
+    float: left;
+    color: white;
+    margin: 25px 0px 0px 65px;
+}
+.btn-primary{
+    font-family: 'Poppins', sans-serif;
+    background-color: #154360;
+    border-color: #154360;
+    border-radius: 0px;
+    width: 130px;
+    padding: 6px 0px 6px 0px;
+    font-size: 1.3rem;
+}
+.btn-primary a{
+    color: white;
+}
+h3, p{
+    color: #455a64;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+p{
+    font-size: 20px;
+}
+div.campus{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-shadow: black;
+    text-shadow: 3px 8px 4px black;
+}
+#olvidar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #154360;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
